@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+</head>
+<body>
+    <h2>User Login</h2>
+    <form method="POST" action="{{ url_for('login') }}">
+        {{ form.hidden_tag() }}
+        {{ form.username.label }} {{ form.username() }}
+        {{ form.password.label }} {{ form.password() }}
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
