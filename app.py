@@ -67,7 +67,7 @@ def success_page():
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Raone@2011'
+app.config['MYSQL_PASSWORD'] = 'Enter_your_password'
 app.config['MYSQL_DB'] = 'finance_manager_db'
 
 mysql = MySQL()
